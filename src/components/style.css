@@ -1,0 +1,25 @@
+.taxRate, .taxName{
+    position: relative;
+    padding-bottom: 20px;
+}
+.taxRate>.error , .taxName>.error{
+position: absolute;
+}
+.taxRate input{
+    width: 80%;
+    margin-right: 5px;
+}
+input{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    outline: none;
+    padding: 7px;
+}
+input[type="radio"]{
+    accent-color: #db4848;
+    margin-right: 5px;
+}
+input[type="checkbox"]{
+    accent-color: rgb(70, 63, 63);
+    margin: 10px 5px;
+}
